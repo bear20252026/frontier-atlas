@@ -13,3 +13,24 @@ The eighth repository: a single index room for:
 Live: https://bear20252026.github.io/frontier-atlas/
 
 The atlas embeds the seven rooms in place and links to each standalone GitHub Pages site. No upstream source is vendored in the seven exhibition repositories.
+
+## Source ledger
+
+650 records resolve to 16 upstream repositories. Each source is forked once under **bear20252026**; the four repeated catalog URLs do not produce a second fork.
+
+- 621 × [mrdoob/three.js](https://github.com/mrdoob/three.js) → [fork](https://github.com/bear20252026/three.js)
+- 1 × [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) → [fork](https://github.com/bear20252026/Babylon.js)
+- 1 × [KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) → [fork](https://github.com/bear20252026/glTF)
+- 2 × [kripken/ammo.js](https://github.com/kripken/ammo.js) → [fork](https://github.com/bear20252026/ammo.js)
+- 1 × [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) → [fork](https://github.com/bear20252026/CLI-Anything)
+- 2 × [KhronosGroup/WebGL](https://github.com/KhronosGroup/WebGL) → [fork](https://github.com/bear20252026/WebGL)
+- 5 × [mrdoob/codevember-2026](https://github.com/mrdoob/codevember-2026) → [fork](https://github.com/bear20252026/codevember-2026-mrdoob)
+- 1 × [mrdoob/slop-newyork](https://github.com/mrdoob/slop-newyork) → [fork](https://github.com/bear20252026/slop-newyork)
+- 6 × [saharan/works](https://github.com/saharan/works) → [fork](https://github.com/bear20252026/works)
+- 2 × [ellisonleao/magictools](https://github.com/ellisonleao/magictools) → [fork](https://github.com/bear20252026/magictools)
+- 2 × [eug/awesome-opengl](https://github.com/eug/awesome-opengl) → [fork](https://github.com/bear20252026/awesome-opengl)
+- 2 × [evanw/lightgl.js](https://github.com/evanw/lightgl.js) → [fork](https://github.com/bear20252026/lightgl.js)
+- 1 × [CodingTrain/Machine-Learning](https://github.com/CodingTrain/Machine-Learning) → [fork](https://github.com/bear20252026/Machine-Learning)
+- 1 × [BenjaminAster/CSS-Minecraft](https://github.com/BenjaminAster/CSS-Minecraft) → [fork](https://github.com/bear20252026/CSS-Minecraft)
+- 1 × [dli/paint](https://github.com/dli/paint) → [fork](https://github.com/bear20252026/paint)
+- 1 × [KhronosGroup/WebGLDeveloperTools](https://github.com/KhronosGroup/WebGLDeveloperTools) → [fork](https://github.com/bear20252026/WebGLDeveloperTools)

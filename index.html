@@ -436,14 +436,14 @@
       .room {
         position: relative;
         grid-column: span 4;
-        min-height: 300px;
+        min-height: 330px;
         border-radius: 24px;
         overflow: hidden;
         background: #0d0d10;
         box-shadow: 0 0 0 1px rgba(20,20,22,.08), 0 30px 50px -38px rgba(40,34,20,.7);
         isolation: isolate;
       }
-      .room--hero { grid-column: span 12; min-height: 390px; }
+      .room--hero { grid-column: span 12; min-height: 410px; }
       .room:nth-child(2), .room:nth-child(3), .room:nth-child(4) { grid-column: span 4; }
       .room .frame {
         position: absolute;
@@ -467,18 +467,25 @@
         position: absolute;
         inset: 0;
         background:
-          linear-gradient(180deg, rgba(10,10,12,.3) 0%, transparent 35%, rgba(10,10,12,.86) 100%),
+          linear-gradient(180deg, rgba(10,10,12,.24) 0%, transparent 31%, rgba(10,10,12,.92) 100%),
           radial-gradient(90% 70% at 15% 10%, rgba(255,255,255,.18), transparent 55%);
         pointer-events: none;
       }
       .room-copy {
         position: absolute;
-        left: 22px;
-        right: 22px;
-        bottom: 20px;
+        left: 14px;
+        right: 14px;
+        bottom: 14px;
         z-index: 2;
         color: #f5f2ea;
+        padding: 12px 15px 11px;
+        border: 1px solid rgba(245,242,234,.1);
+        border-radius: 13px;
+        background: linear-gradient(180deg, rgba(10,10,12,.26), rgba(10,10,12,.8));
+        -webkit-backdrop-filter: blur(9px);
+        backdrop-filter: blur(9px);
       }
+      .room:not(.room--hero) .room-copy p { display: none; }
       .room-kicker {
         font-family: var(--mono);
         font-size: 9px;
@@ -537,6 +544,49 @@
         color: var(--muted);
         text-transform: uppercase;
       }
+      .ledger-lead {
+        max-width: 58ch;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 1.7;
+        color: var(--muted);
+      }
+      .source-ledger {
+        margin-top: 24px;
+        border-top: 1px solid var(--ink);
+      }
+      .source-row {
+        display: grid;
+        grid-template-columns: 54px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 14px;
+        padding: 14px 2px;
+        border-bottom: 1px solid var(--hair);
+      }
+      .source-row .count {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: #8b867c;
+      }
+      .source-row .repo {
+        font-size: 14px;
+        color: var(--ink);
+        text-decoration: none;
+        justify-self: start;
+      }
+      .source-row .repo:hover { color: var(--accent); }
+      .source-row .fork {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        letter-spacing: .45px;
+        text-transform: uppercase;
+        color: #6f6c64;
+        text-decoration: none;
+        border-bottom: 1px solid var(--hair);
+        padding-bottom: 3px;
+      }
+      .source-row .fork:hover { color: var(--ink); border-color: var(--ink); }
+      .source-row .queued { opacity: .45; pointer-events: none; }
       @media (max-width: 900px) {
         .room, .room--hero { grid-column: span 12; min-height: 300px; }
       }
@@ -551,7 +601,8 @@
     <header class="mast">
       <div class="brand"><i></i>Atlas</div>
       <nav>
-        <a href="#rooms">Seven rooms</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#sources">Sources</a>
         <a href="https://bear20252026.github.io/paper-widgets/">Paper</a>
         <a href="https://github.com/bear20252026/frontier-atlas">GitHub ↗</a>
       </nav>
@@ -648,6 +699,95 @@
           </article>
         </div>
         <div class="atlas-foot"><span>Paper + Frontier I–VI</span><span>650 benchmarks · 109 pieces · 759 entries</span></div>
+      </section>
+      <section class="section" id="sources">
+        <div class="sec-head">
+          <h2>The source ledger</h2>
+          <span class="sec-note">16 upstream repositories · 650 records · one fork each</span>
+        </div>
+        <p class="ledger-lead">The catalogue points to 650 records, but only 16 source repositories. Each one is forked once under <b>bear20252026</b>; the rooms hold cards and exact paths, never a second copy of the source.</p>
+        <div class="source-ledger">
+          <div class="source-row">
+            <span class="count">621</span>
+            <a class="repo" href="https://github.com/mrdoob/three.js" target="_blank" rel="noopener">mrdoob/three.js</a>
+            <a class="fork" href="https://github.com/bear20252026/three.js" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/BabylonJS/Babylon.js" target="_blank" rel="noopener">BabylonJS/Babylon.js</a>
+            <a class="fork" href="https://github.com/bear20252026/Babylon.js" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/KhronosGroup/glTF" target="_blank" rel="noopener">KhronosGroup/glTF</a>
+            <a class="fork" href="https://github.com/bear20252026/glTF" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">2</span>
+            <a class="repo" href="https://github.com/kripken/ammo.js" target="_blank" rel="noopener">kripken/ammo.js</a>
+            <a class="fork" href="https://github.com/bear20252026/ammo.js" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">HKUDS/CLI-Anything</a>
+            <a class="fork" href="https://github.com/bear20252026/CLI-Anything" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">2</span>
+            <a class="repo" href="https://github.com/KhronosGroup/WebGL" target="_blank" rel="noopener">KhronosGroup/WebGL</a>
+            <a class="fork" href="https://github.com/bear20252026/WebGL" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">5</span>
+            <a class="repo" href="https://github.com/mrdoob/codevember-2026" target="_blank" rel="noopener">mrdoob/codevember-2026</a>
+            <a class="fork" href="https://github.com/bear20252026/codevember-2026-mrdoob" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/mrdoob/slop-newyork" target="_blank" rel="noopener">mrdoob/slop-newyork</a>
+            <a class="fork" href="https://github.com/bear20252026/slop-newyork" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">6</span>
+            <a class="repo" href="https://github.com/saharan/works" target="_blank" rel="noopener">saharan/works</a>
+            <a class="fork" href="https://github.com/bear20252026/works" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">2</span>
+            <a class="repo" href="https://github.com/ellisonleao/magictools" target="_blank" rel="noopener">ellisonleao/magictools</a>
+            <a class="fork" href="https://github.com/bear20252026/magictools" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">2</span>
+            <a class="repo" href="https://github.com/eug/awesome-opengl" target="_blank" rel="noopener">eug/awesome-opengl</a>
+            <a class="fork" href="https://github.com/bear20252026/awesome-opengl" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">2</span>
+            <a class="repo" href="https://github.com/evanw/lightgl.js" target="_blank" rel="noopener">evanw/lightgl.js</a>
+            <a class="fork" href="https://github.com/bear20252026/lightgl.js" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/CodingTrain/Machine-Learning" target="_blank" rel="noopener">CodingTrain/Machine-Learning</a>
+            <a class="fork" href="https://github.com/bear20252026/Machine-Learning" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/BenjaminAster/CSS-Minecraft" target="_blank" rel="noopener">BenjaminAster/CSS-Minecraft</a>
+            <a class="fork" href="https://github.com/bear20252026/CSS-Minecraft" target="_blank" rel="noopener">open fork ↗</a>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/dli/paint" target="_blank" rel="noopener">dli/paint</a>
+            <span class="fork queued">fork queued</span>
+          </div>
+          <div class="source-row">
+            <span class="count">1</span>
+            <a class="repo" href="https://github.com/KhronosGroup/WebGLDeveloperTools" target="_blank" rel="noopener">KhronosGroup/WebGLDeveloperTools</a>
+            <span class="fork queued">fork queued</span>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
