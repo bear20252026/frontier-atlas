@@ -445,15 +445,15 @@
         background: linear-gradient(135deg, var(--ra), #101014);
       }
       .room .frame iframe {
-        width: 1440px;
-        height: 980px;
+        width: 200%;
+        height: 200%;
         border: 0;
-        transform: scale(.333);
+        transform: scale(.5);
         transform-origin: 0 0;
         pointer-events: none;
         filter: saturate(.92) contrast(1.02);
       }
-      .room--hero .frame iframe { transform: scale(.5); width: 1920px; height: 1080px; }
+      .room--hero .frame iframe { transform: scale(.5); width: 200%; height: 200%; }
       .room::after {
         content: "";
         position: absolute;
@@ -531,7 +531,6 @@
       }
       @media (max-width: 900px) {
         .room, .room--hero { grid-column: span 12; min-height: 300px; }
-        .room .frame iframe { transform: scale(.25); }
       }
       @media (max-width: 620px) {
         .room .frame iframe { display: none; }
