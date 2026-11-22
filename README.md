@@ -1,6 +1,6 @@
-# Frontier Atlas — seven rooms, one shelf
+# Frontier Atlas — nine rooms, one shelf
 
-The eighth repository: a single index room for:
+The index repository for:
 
 1. [Paper](https://bear20252026.github.io/paper-widgets/) — 109 pieces · [repo](https://github.com/bear20252026/paper-widgets)
 2. [Frontier I](https://bear20252026.github.io/frontier-shelf-01/) — 108 entries · [repo](https://github.com/bear20252026/frontier-shelf-01)
@@ -9,10 +9,12 @@ The eighth repository: a single index room for:
 5. [Frontier IV](https://bear20252026.github.io/frontier-shelf-04/) — 108 entries · [repo](https://github.com/bear20252026/frontier-shelf-04)
 6. [Frontier V](https://bear20252026.github.io/frontier-shelf-05/) — 109 entries · [repo](https://github.com/bear20252026/frontier-shelf-05)
 7. [Frontier VI](https://bear20252026.github.io/frontier-shelf-06/) — 109 entries · [repo](https://github.com/bear20252026/frontier-shelf-06)
+8. [Nodevember](https://bear20252026.github.io/nodevember/) — 20 procedural studies · [repo](https://github.com/bear20252026/nodevember)
+9. [Video to Game](https://bear20252026.github.io/video-to-game/) — 31 playable games · [repo](https://github.com/bear20252026/video-to-game)
 
 Live: https://bear20252026.github.io/frontier-atlas/
 
-The atlas embeds the seven rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces.
+The atlas embeds the 9 rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces; Nodevember and Video to Game stay in their own source repositories.
 
 ## Source ledger
 
