@@ -494,11 +494,11 @@
       }
       .room-copy h3 { font-size: 24px; font-weight: 400; letter-spacing: -.5px; margin-top: 6px; }
       .room-copy p { margin-top: 5px; font-size: 12px; line-height: 1.5; color: rgba(245,242,234,.7); max-width: 36ch; }
+      .room-actions { display: flex; align-items: center; gap: 14px; margin-top: 13px; }
       .room-open {
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        margin-top: 13px;
         font-family: var(--mono);
         font-size: 10px;
         letter-spacing: .6px;
@@ -509,6 +509,17 @@
         padding-bottom: 4px;
       }
       .room-open:hover { color: #fff; border-color: #fff; }
+      .room-repo {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        color: rgba(245,242,234,.58);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(245,242,234,.22);
+        padding-bottom: 4px;
+      }
+      .room-repo:hover { color: #fff; border-color: rgba(245,242,234,.8); }
       .room-no {
         position: absolute;
         right: 22px;
@@ -627,7 +638,7 @@
               <div class="room-kicker">The original shelf</div>
               <h3>Paper</h3>
               <p>109 self-contained interfaces, scenes and small games.</p>
-              <a class="room-open" href="https://bear20252026.github.io/paper-widgets/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/paper-widgets/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/paper-widgets" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#2b36ff">
@@ -638,7 +649,7 @@
               <div class="room-kicker">Engines &amp; beginnings</div>
               <h3>Frontier I</h3>
               <p>Resources, CSS 3D, early physics and the opening WebGL grammar.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-01/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-01/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-01" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#287a88">
@@ -649,7 +660,7 @@
               <div class="room-kicker">Geometry &amp; detail</div>
               <h3>Frontier II</h3>
               <p>Geometry, loaders, LOD and the machinery of a scene.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-02/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-02/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-02" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#b5452d">
@@ -660,7 +671,7 @@
               <div class="room-kicker">Light &amp; shading</div>
               <h3>Frontier III</h3>
               <p>Materials, shaders, post-processing and the behaviour of light.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-03/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-03/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-03" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#9a6a16">
@@ -671,7 +682,7 @@
               <div class="room-kicker">Sky &amp; signal</div>
               <h3>Frontier IV</h3>
               <p>Sky, text, WebGPU’s first lines and signal experiments.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-04/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-04/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-04" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#5b4b8a">
@@ -682,7 +693,7 @@
               <div class="room-kicker">Compute &amp; motion</div>
               <h3>Frontier V</h3>
               <p>WebGPU compute, thick lines, oceans and real-time simulation.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-05/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-05/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-05" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
           <article class="room " style="--ra:#202024">
@@ -693,7 +704,7 @@
               <div class="room-kicker">Worlds &amp; wonders</div>
               <h3>Frontier VI</h3>
               <p>Sandboxes, volumetric light and the far end of the example shelf.</p>
-              <a class="room-open" href="https://bear20252026.github.io/frontier-shelf-06/" target="_blank" rel="noopener">Enter room ↗</a>
+              <div class="room-actions"><a class="room-open" href="https://bear20252026.github.io/frontier-shelf-06/" target="_blank" rel="noopener">Enter room ↗</a><a class="room-repo" href="https://github.com/bear20252026/frontier-shelf-06" target="_blank" rel="noopener">Repo ↗</a></div>
             </div>
           </article>
         </div>
