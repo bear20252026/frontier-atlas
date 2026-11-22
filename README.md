@@ -12,7 +12,7 @@ The eighth repository: a single index room for:
 
 Live: https://bear20252026.github.io/frontier-atlas/
 
-The atlas embeds the seven rooms in place and links to each standalone GitHub Pages site. No upstream source is vendored in the seven exhibition repositories.
+The atlas embeds the seven rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces.
 
 ## Source ledger
 

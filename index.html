@@ -619,10 +619,10 @@
     </header>
     <main>
       <section class="intro atlas-intro">
-        <p class="eyebrow">Seven rooms · 759 entries · an index, not a warehouse</p>
+        <p class="eyebrow">Seven rooms · 759 entries · source in every volume</p>
         <h1>Seven rooms,<br />one shelf.</h1>
-        <p class="lead">One existing paper shelf and six benchmark volumes. Each room stands alone, stays under the size ceiling, and opens in place below. <b>759 entries, 16 source repositories, one atlas.</b></p>
-        <p class="lead">七个展馆，一座总馆。650 条行业标杆按 108/109 条拆进六册；第一馆是现有的 109 件 Paper 作品。每一扇窗都是活的，点进去就是完整展厅。</p>
+        <p class="lead">One existing paper shelf and six benchmark volumes. Each room stands alone, stays under the size ceiling, and opens in place below. <b>759 entries, 16 source repositories, source under every room.</b></p>
+        <p class="lead">七个展馆，一座总馆。650 条行业标杆按 108/109 条拆进六册；第一馆是现有的 109 件 Paper 作品。六个分馆已把 three.js 的示例与引擎源码装进各自仓库的 <b>source/three</b>，卡片直接打开本地 demo。</p>
       </section>
       <section class="section" id="rooms">
         <div class="sec-head">
@@ -715,7 +715,7 @@
           <h2>The source ledger</h2>
           <span class="sec-note">16 upstream repositories · 650 records · one fork each</span>
         </div>
-        <p class="ledger-lead">The catalogue points to 650 records, but only 16 source repositories. Each one is forked once under <b>bear20252026</b>; the rooms hold cards and exact paths, never a second copy of the source.</p>
+        <p class="ledger-lead">The catalogue points to 650 records, but only 16 source repositories. Each one is forked once under <b>bear20252026</b>. The six volumes carry the three.js source base under <code>source/three</code> and their own supplementary repositories under <code>source/vendor</code>; the cards open local demos where the source is held.</p>
         <div class="source-ledger">
           <div class="source-row">
             <span class="count">621</span>
@@ -801,10 +801,10 @@
       </section>
     </main>
     <footer>
-      <p class="eyebrow">How this is kept small</p>
+      <p class="eyebrow">How this is kept under the ceiling</p>
       <p class="cmds"><code>7 content sites</code><code>1 atlas</code><code>16 upstream forks</code></p>
-      <p class="fine">The exhibition rooms are catalogues, not copies: each entry points to its live demo or exact upstream source. The 16 unique source repositories are forked once and linked from the volumes; no repository was cloned 650 times, and no source is vendored into the seven rooms. Four catalog rows repeat an earlier source URL and remain as records only.</p>
-      <p class="fine">Catalog snapshot 2026-11-22. Built to stay under the 1 GB per-site ceiling: every room is a static page, and the atlas embeds the seven public rooms rather than merging their contents.</p>
+      <p class="fine">The six Frontier volumes each carry one three.js source base under <code>source/three</code> and their supplementary repositories under <code>source/vendor</code>; the cards open local demos. The 16 unique upstreams are forked once and linked from the volumes; no repository was cloned 650 times. Paper keeps its own 109 pieces. Four catalog rows repeat an earlier source URL and remain as records only.</p>
+      <p class="fine">Catalog snapshot 2026-11-22. Built to stay under the 1 GB per-site ceiling: each room is a static site, the source trees live inside the content repositories, and the atlas embeds the seven public rooms rather than merging their contents.</p>
     </footer>
   </div>
 </body>
