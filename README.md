@@ -16,7 +16,7 @@ The index repository for:
 
 ## Classified index
 
-[Taxonomy](https://bear20252026.github.io/frontier-atlas/taxonomy.html) — 841 entries across ten rooms, sorted by Form / Mechanism / Engine / Tempo. Video to Game is outside the index.
+[Taxonomy](https://bear20252026.github.io/frontier-atlas/taxonomy.html) — 841 entries across ten rooms, sorted by Form / Mechanism / Engine / Tempo, with **46 Form subtypes** nested under the nine broad forms. Video to Game is outside the index.
 
 Live: https://bear20252026.github.io/frontier-atlas/
 
