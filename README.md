@@ -1,4 +1,4 @@
-# Frontier Atlas — ten rooms, one shelf
+# Frontier Atlas — eleven rooms, one shelf
 
 The index repository for:
 
@@ -12,14 +12,15 @@ The index repository for:
 8. [Nodevember](https://bear20252026.github.io/nodevember/) — 20 procedural studies · [repo](https://github.com/bear20252026/nodevember)
 9. [Video to Game](https://bear20252026.github.io/video-to-game/) — 31 playable games · [repo](https://github.com/bear20252026/video-to-game)
 10. [GTA Shenzhen](https://bear20252026.github.io/gtashenzhen/) — 1 playable city · [cover](https://bear20252026.github.io/gtashenzhen/room.html) · [repo](https://github.com/bear20252026/gtashenzhen)
+11. [Frontier Studio](https://bear20252026.github.io/frontier-studio/) — 61 works, six volumes · [cover](https://bear20252026.github.io/frontier-studio/room.html) · [sources](https://bear20252026.github.io/frontier-studio/sources.html) · [repo](https://github.com/bear20252026/frontier-studio)
 
 Live: https://bear20252026.github.io/frontier-atlas/
 
-The atlas embeds the 10 rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces; Nodevember and Video to Game stay in their own source repositories; GTA Shenzhen embeds a light cover page and opens the full playable city on Enter.
+The atlas embeds the 11 rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces; Nodevember and Video to Game stay in their own source repositories; GTA Shenzhen embeds a light cover page and opens the full playable city on Enter. Frontier Studio carries 61 complete works from 53 repositories under its own `source/` tree, with a local demo for every card.
 
 ## Source ledger
 
-650 records resolve to 16 upstream repositories. Each source is forked once under **bear20252026**; the four repeated catalog URLs do not produce a second fork.
+650 records resolve to 16 upstream repositories. Each source is forked once under **bear20252026**; the four repeated catalog URLs do not produce a second fork. The separate Studio source base is 53 repositories, copied whole into [frontier-studio](https://github.com/bear20252026/frontier-studio) and listed on its [sources page](https://bear20252026.github.io/frontier-studio/sources.html).
 
 - 621 × [mrdoob/three.js](https://github.com/mrdoob/three.js) → [fork](https://github.com/bear20252026/three.js)
 - 1 × [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) → [fork](https://github.com/bear20252026/Babylon.js)
