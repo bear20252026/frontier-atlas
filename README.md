@@ -14,9 +14,13 @@ The index repository for:
 10. [GTA Shenzhen](https://bear20252026.github.io/gtashenzhen/) — 1 playable city · [cover](https://bear20252026.github.io/gtashenzhen/room.html) · [repo](https://github.com/bear20252026/gtashenzhen)
 11. [Frontier Studio](https://bear20252026.github.io/frontier-studio/) — 61 works, six volumes · [cover](https://bear20252026.github.io/frontier-studio/room.html) · [sources](https://bear20252026.github.io/frontier-studio/sources.html) · [repo](https://github.com/bear20252026/frontier-studio)
 
+## Classified index
+
+[Taxonomy](https://bear20252026.github.io/frontier-atlas/taxonomy.html) — 841 entries across ten rooms, sorted by Form / Mechanism / Engine / Tempo. Video to Game is outside the index.
+
 Live: https://bear20252026.github.io/frontier-atlas/
 
-The atlas embeds the 11 rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces; Nodevember and Video to Game stay in their own source repositories; GTA Shenzhen embeds a light cover page and opens the full playable city on Enter. Frontier Studio carries 61 complete works from 53 repositories under its own `source/` tree, with a local demo for every card.
+The classified index covers 841 entries across Paper, Frontier I–VI, Nodevember, GTA Shenzhen and Frontier Studio. Video to Game is intentionally outside the index. The atlas embeds the 11 rooms in place and links to each standalone GitHub Pages site. The six Frontier volumes carry the three.js source base under `source/three` and their supplementary repositories under `source/vendor`; Paper contains its own 109 pieces; Nodevember and Video to Game stay in their own source repositories; GTA Shenzhen embeds a light cover page and opens the full playable city on Enter. Frontier Studio carries 61 complete works from 53 repositories under its own `source/` tree, with a local demo for every card.
 
 ## Source ledger
 

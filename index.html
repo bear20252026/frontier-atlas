@@ -606,6 +606,36 @@
         .room .frame { background: linear-gradient(135deg, var(--ra), #101014); }
       }
 </style>
+  <style>
+      .index-band {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: end;
+        gap: 18px;
+        padding: 22px 24px 20px;
+        border: 1px solid var(--hair);
+        border-radius: 20px;
+        background: var(--card);
+        color: inherit;
+        text-decoration: none;
+        box-shadow: 0 18px 34px -30px rgba(40, 34, 20, .55);
+      }
+      .index-band:hover { border-color: rgba(20,20,22,.22); }
+      .index-copy { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+      .index-kicker { font-family: var(--mono); font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+      .index-title { font-size: 27px; font-weight: 400; letter-spacing: -.6px; }
+      .index-note { max-width: 68ch; font-size: 12.5px; line-height: 1.65; color: var(--muted); }
+      .index-axes { display: flex; flex-wrap: wrap; gap: 7px; align-self: center; justify-content: flex-end; }
+      .index-axes span { display: flex; align-items: baseline; gap: 5px; font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: .35px; color: var(--muted); }
+      .index-axes b { font-size: 20px; font-weight: 300; letter-spacing: -.5px; color: var(--ink); }
+      .index-open { grid-column: 1 / -1; font-family: var(--mono); font-size: 10px; letter-spacing: .55px; text-transform: uppercase; color: var(--ink); border-top: 1px solid var(--hair); padding-top: 12px; }
+      @media (max-width: 720px) {
+        .index-band { grid-template-columns: 1fr; align-items: start; padding: 18px; }
+        .index-axes { justify-content: flex-start; }
+        .index-title { font-size: 24px; }
+      }
+  </style>
 </head>
 <body>
   <div class="page">
@@ -613,6 +643,7 @@
       <div class="brand"><i></i>Atlas</div>
       <nav>
         <a href="#rooms">Rooms</a>
+        <a href="taxonomy.html">Index</a>
         <a href="#sources">Sources</a>
         <a href="https://bear20252026.github.io/paper-widgets/">Paper</a>
         <a href="https://github.com/bear20252026/frontier-atlas">GitHub ↗</a>
@@ -620,15 +651,29 @@
     </header>
     <main>
       <section class="intro atlas-intro">
-        <p class="eyebrow">11 rooms · 872 entries · source in every volume</p>
+        <p class="eyebrow">11 rooms · 841 classified entries · one shelf</p>
         <h1>Eleven rooms,<br />one shelf.</h1>
-        <p class="lead">One existing paper shelf, six benchmark volumes, two generative rooms, one playable city and one six-volume studio archive. Each room stands alone, stays under the size ceiling, and opens in place below. <b>872 entries, 16 benchmark forks, 53 studio snapshots.</b></p>
-        <p class="lead">十一个展馆，一座总馆。650 条行业标杆按 108/109 条拆进六册；第一馆是现有的 109 件 Paper 作品。Nodevember 20 件程序化练习、Video to Game 31 个可玩游戏，加上一座可真实漫游的深圳，以及一间收进四位独立作者与 Codrops 的 Frontier Studio：61 件作品、6 个体量卷、每条都带完整源码与本地 demo。六个分馆把 three.js 示例与引擎源码装进各自仓库的 <b>source/three</b>，Studio 则把 53 个源仓库整树拷进 <b>source/</b>。</p>
+        <p class="lead">One existing paper shelf, six benchmark volumes, two generative rooms, one playable city and one six-volume studio archive. Each room stands alone, stays under the size ceiling, and opens in place below. <b>841 entries across 10 rooms now share one taxonomy; 16 benchmark forks, 53 studio snapshots.</b></p>
+        <p class="lead">十一个展馆，一座总馆。650 条行业标杆按 108/109 条拆进六册；第一馆是现有的 109 件 Paper 作品。Nodevember 20 件程序化练习、Video to Game 31 个可玩游戏，加上一座可真实漫游的深圳，以及一间收进四位独立作者与 Codrops 的 Frontier Studio：61 件作品、6 个体量卷、每条都带完整源码与本地 demo。六个分馆把 three.js 示例与引擎源码装进各自仓库的 <b>source/three</b>，Studio 则把 53 个源仓库整树拷进 <b>source/</b>。现在，除 Video to Game 外的十个房间都进入同一张 <b>Form / Mechanism / Engine / Tempo</b> 分类索引。</p>
+      </section>
+      <section class="section" id="index">
+        <div class="sec-head"><h2>The classified index</h2><span class="sec-note">10 rooms · 841 entries · Form / Mechanism / Engine / Tempo</span></div>
+        <a class="index-band" href="taxonomy.html">
+          <span class="index-copy">
+            <span class="index-kicker">Global taxonomy</span>
+            <span class="index-title">Every room, one grammar.</span>
+            <span class="index-note">Paper, Frontier I–VI, Nodevember, GTA Shenzhen and Frontier Studio sit in one sortable ledger. Video to Game stays outside it. Each row keeps its room, source repository and a direct local demo or dossier.</span>
+          </span>
+          <span class="index-axes">
+            <span><b>9</b>Form</span><span><b>9</b>Mechanism</span><span><b>8</b>Engine</span><span><b>5</b>Tempo</span>
+          </span>
+          <span class="index-open">Open the classified index ↗</span>
+        </a>
       </section>
       <section class="section" id="rooms">
         <div class="sec-head">
           <h2>The eleven windows</h2>
-          <span class="sec-note">Hover a window · enter the room · every room has its own GitHub Pages</span>
+          <span class="sec-note">Hover a window · enter the room · ten rooms are in the classified index</span>
         </div>
         <div class="atlas-grid">
           <article class="room room--hero " style="--ra:#2b36ff">
@@ -753,7 +798,7 @@
             </div>
           </article>
         </div>
-        <div class="atlas-foot"><span>Paper + Frontier I–VI + Nodevember + Video → Game + GTA Shenzhen + Frontier Studio</span><span>650 benchmarks · 221 studio pieces · 1 playable city · 872 entries</span></div>
+        <div class="atlas-foot"><span>Paper + Frontier I–VI + Nodevember + GTA Shenzhen + Frontier Studio · ten classified rooms</span><span>841 classified · 31 games outside the index · 872 entries</span></div>
       </section>
       <section class="section" id="sources">
         <div class="sec-head">
@@ -847,8 +892,8 @@
     </main>
     <footer>
       <p class="eyebrow">How this is kept under the ceiling</p>
-      <p class="cmds"><code>11 content sites</code><code>1 atlas</code><code>16 benchmark forks</code><code>53 studio snapshots</code></p>
-      <p class="fine">The six Frontier volumes each carry one three.js source base under <code>source/three</code>, their supplementary repositories under <code>source/vendor</code>, and local dossiers. Every card opens a rendered demo, a local project, the three.js source room, or a source dossier held in its room; no card points to an upstream project site or raw source file. Nodevember and Video to Game open in their own source repositories; their cards point to local images, loops and playable games. GTA Shenzhen opens a real OSM city as one playable Three.js room, with a light cover page for the atlas preview. Frontier Studio keeps 61 complete source snapshots across 53 repositories and six volumes; its cards open local demos and its own source tree. The 16 benchmark upstreams are forked once and linked from the volumes; no repository was cloned 650 times. Paper keeps its own 109 pieces. Four catalog rows repeat an earlier source URL and remain as records only.</p>
+      <p class="cmds"><code>11 content sites</code><code>1 atlas</code><code>841 classified entries</code><code>16 benchmark forks</code><code>53 studio snapshots</code></p>
+      <p class="fine">The six Frontier volumes each carry one three.js source base under <code>source/three</code>, their supplementary repositories under <code>source/vendor</code>, and local dossiers. Every card opens a rendered demo, a local project, the three.js source room, or a source dossier held in its room; no card points to an upstream project site or raw source file. Nodevember and Video to Game open in their own source repositories; their cards point to local images, loops and playable games. GTA Shenzhen opens a real OSM city as one playable Three.js room, with a light cover page for the atlas preview. Frontier Studio keeps 61 complete source snapshots across 53 repositories and six volumes; its cards open local demos and its own source tree. The 16 benchmark upstreams are forked once and linked from the volumes; no repository was cloned 650 times. Paper keeps its own 109 pieces. Four catalog rows repeat an earlier source URL and remain as records only. The <a href="taxonomy.html">classified index</a> covers 841 entries in ten rooms; Video to Game's 31 games are intentionally outside it.</p>
       <p class="fine">Catalog snapshot 2026-11-22. Built to stay under the 1 GB per-site ceiling: each room is a static site, the source trees live inside the content repositories, and the atlas embeds the 11 public rooms rather than merging their contents.</p>
     </footer>
   </div>
