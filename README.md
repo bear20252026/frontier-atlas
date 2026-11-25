@@ -25,3 +25,16 @@ A separate seventh collection was assembled on 2026-11-25 and is live in its own
 
 This is not one of the six benchmark volumes currently offline. It is a new, separately audited shelf and does not change the five-room audit count above.
 
+## Linked arrivals
+
+Five works are linked from the rooms rather than copied into the 1 GB sites. They do **not** change the five-room total above.
+
+| Work | Room | Classification | Why linked |
+|---|---|---|---|
+| [Rain Alley](https://shubhu121.github.io/rain-alley/) | Paper | Scene | 422 MB source |
+| [OpenVDB](https://mjurczyk.github.io/openvdb/) | Paper | Object / tool | 401 MB source; own fork exists |
+| [Spite — Codevember 2026](https://spite.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 85 MB source |
+| [Theo Tillberg — Codevember 2026](https://ttillberg.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 292 MB source |
+| [Cinderwatch](https://kevintngo.github.io/cinderwatch/) | Games | Play · tower defense | 94 MB source; own fork exists |
+
+`yapitw/nodevember` is the upstream of the existing Nodevember fork, and `bear20252026/openvdb` / `bear20252026/cinderwatch` are forks of the two projects above — none is counted twice.
