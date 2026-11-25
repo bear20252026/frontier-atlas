@@ -31,7 +31,7 @@ Five works are linked from the rooms rather than copied into the 1 GB sites. The
 
 | Work | Room | Classification | Why linked |
 |---|---|---|---|
-| [Rain Alley](https://github.com/shubhu121/rain-alley) | Paper | Scene | 422 MB source; source only, no deployed page |
+| [Rain Alley — film](https://github.com/shubhu121/rain-alley) | Paper | Scene / source cut | Film and 422 MB repo stay upstream; [source layer](https://bear20252026.github.io/paper-widgets/rain-alley-source/) mirrored in the Paper Workshop |
 | [OpenVDB](https://mjurczyk.github.io/openvdb/) | Paper | Object / tool | 401 MB source; own fork exists |
 | [Spite — Codevember 2026](https://spite.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 85 MB source |
 | [Theo Tillberg — Codevember 2026](https://ttillberg.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 292 MB source |
