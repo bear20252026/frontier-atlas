@@ -33,8 +33,8 @@ Five works are linked from the rooms rather than copied into the 1 GB sites. The
 |---|---|---|---|
 | [Rain Alley — film](https://github.com/shubhu121/rain-alley) | Paper | Scene / source cut | Film and 422 MB repo stay upstream; [source layer](https://bear20252026.github.io/paper-widgets/rain-alley-source/) mirrored in the Paper Workshop |
 | [OpenVDB](https://mjurczyk.github.io/openvdb/) | Paper | Object / tool | 401 MB source; own fork exists |
-| [Spite — Codevember 2026](https://spite.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 85 MB source |
-| [Theo Tillberg — Codevember 2026](https://ttillberg.github.io/codevember-2026/) | Nodevember | Codevember · complete set | 292 MB source |
+| [Spite — Codevember 2026](https://bear20252026.github.io/codevember-sets/spite/) | Nodevember (parallel) | Codevember · complete set | 25 days; now in [codevember-sets](https://github.com/bear20252026/codevember-sets) |
+| [Theo Tillberg — Codevember 2026](https://bear20252026.github.io/codevember-sets/theo/) | Nodevember (parallel) | Codevember · complete set | 16 pieces; now in [codevember-sets](https://github.com/bear20252026/codevember-sets) |
 | [Cinderwatch](https://kevintngo.github.io/cinderwatch/) | Games | Play · tower defense | 94 MB source; own fork exists |
 
 `yapitw/nodevember` is the upstream of the existing Nodevember fork, and `bear20252026/openvdb` / `bear20252026/cinderwatch` are forks of the two projects above — none is counted twice.
